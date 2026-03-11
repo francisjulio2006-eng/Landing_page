@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francisco - Programador Web Júnior</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .sobre, .projetos, .contato {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #4CAF50;
+            margin-bottom: 15px;
+        }
+
+        .projetos .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Francisco</h1>
+        <p>Programador Web Júnior</p>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="sobre" class="sobre">
+            <h2>Sobre mim</h2>
+            <p>Sou um programador web júnior apaixonado por criar aplicações práticas e intuitivas. Tenho experiência com Python, Flask, HTML, CSS, JavaScript e SQLite3. Busco sempre unir design profissional com funcionalidade completa.</p>
+        </section>
+
+        <section id="projetos" class="projetos">
+            <h2>Projetos</h2>
+            <div class="card">
+                <h3>Sistema de Gestão Financeira</h3>
+                <p>Aplicação desenvolvida em Flask e SQLite3 para controle de despesas e receitas, com dashboard interativo.</p>
+            </div>
+            <div class="card">
+                <h3>Sistema de Gestão Hospitalar</h3>
+                <p>Plataforma com controle de usuários e permissões, garantindo segurança e acessibilidade para pacientes e administradores.</p>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <h2>Contato</h2>
+            <p>Email: francisco.dev@example.com</p>
+            <p>LinkedIn: linkedin.com/in/francisco-dev</p>
+            <p>GitHub: github.com/francisco-dev</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Francisco - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
